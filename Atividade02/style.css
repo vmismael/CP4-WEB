@@ -1,0 +1,92 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #92c3ff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+
+div {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.detalhes-produto {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.detalhes-produto p {
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+
+button {
+    align-self: center;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+div h3, div label, div input {
+    margin-bottom: 10px;
+}
+
+div input[type="number"] {
+    width: 80px; 
+}
+
+div:nth-of-type(4) {
+    max-width: 600px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+div:nth-of-type(4) label {
+    display: block;
+}
+
+div:nth-of-type(4) input {
+    margin-bottom: 10px;
+}
